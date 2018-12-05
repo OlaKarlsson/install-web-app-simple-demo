@@ -2,10 +2,10 @@ self.addEventListener('install', function(e) {
     e.waitUntil(
       caches.open('demo-store').then(function(cache) {
         return cache.addAll([
-          '/index.html',
-          '/js/main.js',
-          '/css/main.css',
-          '/img/demo.png'
+          './index.html',
+          './js/main.js',
+          './css/main.css',
+          './img/demo.png'
         ]);
       })
     );
