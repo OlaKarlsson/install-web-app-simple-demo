@@ -1,0 +1,20 @@
+{
+    "background_color": "#CCCCC",
+    "description": "Simple demo of installing webb app on phone.",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "icons/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "name": "Install Demo",
+    "short_name": "Demo",
+    "start_url": "index.html"
+  }
