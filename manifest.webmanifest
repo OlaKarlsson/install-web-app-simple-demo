@@ -1,5 +1,5 @@
 {
-    "background_color": "#CCCCC",
+    "background_color": "white",
     "description": "Simple demo of installing webb app on phone.",
     "display": "fullscreen",
     "icons": [
