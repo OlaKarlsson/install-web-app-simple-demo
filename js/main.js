@@ -11,6 +11,6 @@ h1Element.textContent = h1Text;
 //the service worker will add off line support
 if('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('/service-worker.js')
+             .register('service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
